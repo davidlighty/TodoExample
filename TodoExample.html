@@ -21,14 +21,39 @@
 	</section>
 	<ul>
 		{{#each todos}}
-		<li>
+<!-- 		<li>
 			<section>
-				<input type="checkbox" name="isFinished" id="isFinished" />
-				<label id="todoTitle">
-					{{title}}
-				</label>
+				{{editing}}
+				{{#if editing}}
+					<input type="text" name="todoEdit" id="todoEdit" value="{{title}}" />
+					<button class="editBtn">Done</button>
+				{{else}}
+					<input type="checkbox" name="isFinished" id="isFinished" />
+					<label id="todoTitle" class="{{_id}}">
+						{{title}}
+					</label>
+					<button class="delBtn" id="{{_id}}">X</button>
+				{{/if}}
 			</section>
-		</li>
+		</li> -->
+		{{>todo}}
 		{{/each}}
 	</ul>
+</template>
+
+
+<template name="todo">
+	<section>
+		<p>Are we editing this {{_id}}? {{editing}}</p>
+		{{#if editing}}
+			<input type="text" name="todoEdit" id="todoEdit" value="{{title}}" />
+			<button class="editBtn">Done</button>
+		{{else}}
+			<input type="checkbox" name="isFinished" id="isFinished" />
+			<label id="todoTitle" class="{{_id}}">
+				{{title}}
+			</label>
+			<button class="delBtn" id="{{_id}}">X</button>
+		{{/if}}
+	</section>
 </template>
