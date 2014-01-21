@@ -519,6 +519,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "TodoExample.js",
+			"settings":
+			{
+				"buffer_size": 3799,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "TodoExample.html",
+			"settings":
+			{
+				"buffer_size": 1235,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -556,6 +572,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/davidl/Documents/GitHub/TodoExample/TodoExample.css",
 		"/C/projects/webnames/Source/Build/00_Rebuild_Webnames.log",
 		"//ds-bg1/c$/apacheTomcat/DONUTS_EPP_STG/logs/epp-donuts-stg-stdout.2014-01-16.log",
 		"//10.9.9.114/f$/apacheTomcat/bin/donuts-epp-rtk-debug.log",
@@ -682,8 +699,7 @@
 		"/C/Users/davidl/Documents/GitHub/FamilyHub/client/helpers/misc.js",
 		"/C/Users/davidl/Documents/GitHub/FamilyHub/client/views/family/family.tmpl.html",
 		"/C/Users/davidl/Documents/GitHub/FamilyHub/client/views/events/events.tmpl.html",
-		"/C/Users/davidl/Documents/GitHub/FamilyHub/client/views/memo/memo.js",
-		"/C/Users/davidl/Documents/GitHub/FamilyHub/client/views/memo/memo.tmpl.css"
+		"/C/Users/davidl/Documents/GitHub/FamilyHub/client/views/memo/memo.js"
 	],
 	"find":
 	{
@@ -821,8 +837,64 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "TodoExample.js",
+					"settings":
+					{
+						"buffer_size": 3799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1951,
+								1951
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "TodoExample.html",
+					"settings":
+					{
+						"buffer_size": 1235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								938,
+								946
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
