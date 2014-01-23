@@ -7,7 +7,7 @@ if (Meteor.isClient) {
     return "Welcome to TodoExample.";
   };
 
-  Todos = new Meteor.Collection("todos");
+  Todos = new Meteor.Collection("todos"); // Really this should be a subscribe.
 
   // Bind template property to collection
   Template.todos.todos = function() {
